@@ -1,9 +1,8 @@
 #include<stdio.h>
 #include<stdlib.h>
-#include<conio.h>
 
 /**
-* @author Mahir Köle
+* @author Mahir KÃ¶le
 *		  mahirkole@gmail.com
 */
 
@@ -62,7 +61,7 @@ void addActivty(cpmnode activity){
 
 /**
 * Dev Metho - Not Used
-* @param aNumber {int} - Bulunmasý istenen aktivite numarasý
+* @param aNumber {int} - BulunmasÃ½ istenen aktivite numarasÃ½
 */
 cpmnode* findActivity(int aNumber){
 	int i;
@@ -294,6 +293,6 @@ main(int argc, char *argv[])
 	printDiagram();
 	cpm();
 	
-	getch();
+	return 0;
 }
 
